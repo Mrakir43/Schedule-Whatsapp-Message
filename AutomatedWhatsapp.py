@@ -1,10 +1,13 @@
 import pywhatkit
 import pyautogui
-pywhatkit.sendwhatmsg(input("Enter Mob Number: "),input("Enter Message: "),int(input("Enter Hour(24 hrs. format ) : ")),int(input("Enter Minute: ")))
+pywhatkit.sendwhatmsg(input("Enter Mob Number with country code: "),input("Enter Message: "),int(input("Enter Hour(24 hrs. format ) : ")),int(input("Enter Minute: ")))
 pyautogui.press("enter")
 
 
-'''import pywhatkit
+'''
+For more use
+
+import pywhatkit
 
 # Send a WhatsApp Message to a Contact at 1:30 PM
 pywhatkit.sendwhatmsg("+910123456789", "Hi", 13, 30)
