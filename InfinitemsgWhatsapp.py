@@ -2,5 +2,5 @@ import pyautogui
 import time
 time.sleep(5)
 for i in range(50):
-    pyautogui.typewrite("I Love You Darling 😘")
+    pyautogui.typewrite("change according your requirement")
     pyautogui.press("enter")
